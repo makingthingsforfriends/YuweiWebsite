@@ -12,7 +12,7 @@ header {
 
 /* ============= CTA ============= */
 .cta{
-    margin-top: 2.5rem;
+    margin-top: 3rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -24,7 +24,7 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
-    position:absolute;
+    position: absolute;
     left: 0;
     bottom: 3rem;
 }
@@ -40,14 +40,17 @@ header {
 .me{
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 22rem;
+    height: 30rem;
     position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    margin-top: 4rem;
+    left: calc(50% - 11rem);
+    margin-top: 6rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 1.5rem 0 0 0;
+    padding: 4rem 0 0 0;
+}
+
+#profilepic{
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
 }
 
 /* ============= SCROLL DOWN ============= */
